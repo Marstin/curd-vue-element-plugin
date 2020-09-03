@@ -5,6 +5,11 @@
 ```
 npm install
 ```
+## 编译Typescript
+本插件使用typescript编写，`./src` 目录中为源代码，运行一下命令生成 `index.js`和`./lib`内容
+```
+tsc
+```
 
 ## 安装插件
 ```
@@ -66,7 +71,7 @@ module.exports = {
     service: ['list', 'add', 'update', 'del'],
     // `component` 是定义实例对应的数据model等相关配置
     component: {
-      // `primaryKey` 是数据主键，删除、修改需要识别此值，默认为id
+      // `primaryKey` 是数据主键，删除、修改需要识别此值，默认为 'id'
       primaryKey: 'id',
       // `model` 是数据模板,必填
       model: [{
@@ -74,7 +79,9 @@ module.exports = {
         name: 'name',
         //`text` 是该项数据前端显示的名称
         text: '姓名',
+        //`isSearch` 标识是否为查询条件，默认为 false
         isSearch: true,
+        //`isEdit` 标识是否为编辑/新增列，默认为 true
         isEdit: true
       }, {
         name: 'sex',
