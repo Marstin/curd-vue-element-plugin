@@ -6,10 +6,7 @@
 npm install
 ```
 ## 编译Typescript
-本插件使用typescript编写，`./src` 目录中为源代码，运行一下命令生成 `index.js`和`./lib`内容
-```
-tsc
-```
+本插件使用typescript编写，`./src` 目录中为源代码，运行`tsc`生成 `index.js`和`./lib`内容
 
 ## 安装插件
 ```
