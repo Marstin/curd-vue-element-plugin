@@ -1,5 +1,5 @@
 # curd-vue-element-plugin
-基于Vue+ElementUI的webpack插件
+生成Vue+ElementUI增删改查代码的Webpack插件
 
 ## 初始化项目
 ```
