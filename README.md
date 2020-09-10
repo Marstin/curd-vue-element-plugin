@@ -52,7 +52,7 @@ module.exports = {
     // `name` 是当前实例的名称，必填，其值对应最终生成的文件名
     name: 'project',
     // `serviceDir` 是请求代码生成目录，默认为'/services',
-    serviceDir：'/services',
+    serviceDir:'/services',
     // `componentDir` 是template代码生成目录，默认值是'/views'
     componentDir: '/views',
     // `service` 是要生成的增删改查功能配置数组，默认为['list']
@@ -99,6 +99,3 @@ module.exports = {
   }]
 }
 ```
-
-
-
